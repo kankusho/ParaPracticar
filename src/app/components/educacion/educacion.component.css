@@ -1,0 +1,165 @@
+/* EDUCACION FORMAL*/
+
+#educacion-formal h2 {
+    margin-bottom: 3rem;
+}
+
+.estudios {
+    padding-bottom: 3rem;
+}
+
+.estudios img {
+    width: 30rem;
+}
+
+.estudios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.descripcion-estudios {
+    margin-left: 2rem;
+    padding-left: 3rem;
+    text-align: justify;
+}
+
+.descripcion-estudios h3,
+.descripcion-estudios h4 {
+    margin-bottom: 1rem;
+}
+
+#educacion-formal {
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    /* EDUCACION FORMAL*/
+
+    #educacion-formal h2 {
+        margin-bottom: 3rem;
+    }
+
+    .estudios {
+        padding-bottom: 3rem;
+    }
+
+    .estudios img {
+        width: 25rem;
+    }
+
+    .estudios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .descripcion-estudios {
+        margin-left: 1rem;
+        padding-left: 2rem;
+        text-align: justify;
+    }
+
+    .descripcion-estudios h3,
+    .descripcion-estudios h4 {
+        margin-bottom: 1rem;
+    }
+
+    #educacion-formal {
+        padding-bottom: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+    
+    #educacion-formal h2 {
+        margin-bottom: 2rem;
+    }
+
+    .estudios {
+        padding-bottom: 2rem;
+    }
+
+    .estudios img {
+        width: 20rem;
+    }
+
+    .estudios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .descripcion-estudios {
+        margin-left: 1rem;
+        padding-left: 2rem;
+        text-align: justify;
+    }
+
+    .descripcion-estudios h3,
+    .descripcion-estudios h4 {
+        margin-bottom: 1rem;
+    }
+
+    #educacion-formal {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 412px) {
+    h2, h3, h4 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+    
+    #educacion-formal h2 {
+        margin-bottom: 2rem;
+    }
+
+    .estudios {
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .estudios img {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .estudios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descripcion-estudios {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    .descripcion-estudios h3,
+    .descripcion-estudios h4 {
+        margin-bottom: 1rem;
+    }
+
+    #educacion-formal {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+    }
+}

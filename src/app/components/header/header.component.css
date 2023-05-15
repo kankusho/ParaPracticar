@@ -1,0 +1,245 @@
+.header {
+    max-width: 100%;
+    height: 5.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b1736;
+}
+
+.logo-arpro img {
+    width: 12rem;
+    margin-left: .5rem;
+}
+
+/* REDES Y LOGIN */
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a i {
+    margin: 0 .5rem;
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.login {
+    margin-right: 2rem;
+    margin-left: 1rem;
+    padding: .2rem 1rem;
+    background: #ffffff;
+    color: #0b1736;
+    border-radius: .75rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+/* BANNER */
+#banner {
+    max-width: 100%;
+    height: 25rem;
+    background: url(src\assets\img\banner.jpg) no-repeat center center/cover;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 3rem;
+}
+
+#welcome {
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    text-align: center;
+    justify-content: end
+}
+
+#welcome h2 {
+    margin: 1rem;
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 0 0 .5rem #000;
+}
+
+#welcome h4 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 0 0 .5rem #000;
+}
+
+#welcome h3 {
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 0 0 .5rem #000;
+}
+
+@media (max-width: 1024px) {
+
+    #banner {
+        max-width: 100%;
+        height: 25rem;
+        background: url(src\assets\img\banner.jpg) no-repeat center center/cover;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        line-height: 3rem;
+    }
+
+    #welcome {
+        text-transform: capitalize;
+        letter-spacing: .5rem;
+        text-align: center;
+        justify-content: end
+    }
+
+    #welcome h2 {
+        margin: 4rem 0 1rem;
+        font-size: 4rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h4 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h3 {
+        font-size: 4rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #banner {
+        max-width: 100%;
+        height: 20rem;
+        background: url(src\assets\img\banner.jpg) no-repeat center center/cover;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        line-height: 2rem;
+    }
+
+    #welcome {
+        text-transform: capitalize;
+        letter-spacing: .5rem;
+        text-align: center;
+        justify-content: start;
+    }
+
+    #welcome h2 {
+        margin: 1.3rem 0 1rem;
+        font-size: 3.4rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h4 {
+        font-size: 1.7rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h3 {
+        font-size: 3.4rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .header {
+        max-width: 100%;
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0b1736;
+    }
+    
+    .logo-arpro img {
+        width: 10rem;
+        margin-left: .1rem;
+    }
+    
+    /* REDES Y LOGIN */
+    .links {
+        display: flex;
+        align-items: center;
+    }
+    
+    .links a i {
+        margin: 0 .5rem;
+        color: #ffffff;
+        font-size: 1.7rem;
+    }
+    
+    .login {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding: .2rem 1rem;
+        background: #ffffff;
+        color: #0b1736;
+        border-radius: .75rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+        letter-spacing: .7px;
+    }
+
+    #banner {
+        max-width: 100%;
+        height: 20rem;
+        background: url(src\assets\img\banner.jpg) no-repeat center left/cover;
+        margin-bottom: 1rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        line-height: 2rem;
+    }
+
+    #welcome {
+        text-transform: capitalize;
+        letter-spacing: .3rem;
+        text-align: center;
+        justify-content: start;
+    }
+
+    #welcome h2 {
+        margin: 1.3rem 0 1rem;
+        font-size: 3rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h4 {
+        font-size: 1.4rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+
+    #welcome h3 {
+        font-size: 3rem;
+        color: #ffffff;
+        text-shadow: 0 0 .5rem #000;
+    }
+}

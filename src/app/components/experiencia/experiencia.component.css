@@ -1,0 +1,163 @@
+/* EXPERIENCIA */
+
+#experiencia-laboral h2 {
+    margin-bottom: 3rem;
+}
+
+.experiencia {
+    padding-bottom: 3rem;
+}
+
+.experiencia img {
+    width: 30rem;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.descripcion-experiencia {
+    margin-left: 2rem;
+    padding-left: 3rem;
+    text-align: justify;
+}
+
+.descripcion-experiencia h3,
+.descripcion-experiencia h4 {
+    margin-bottom: 1rem;
+}
+
+#experiencia-laboral {
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    /* EXPERIENCIA */
+
+    #experiencia-laboral h2 {
+        margin-bottom: 3rem;
+    }
+
+    .experiencia {
+        padding-bottom: 3rem;
+    }
+
+    .experiencia img {
+        width: 24rem;
+    }
+
+    .experiencia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .descripcion-experiencia {
+        margin-left: 1rem;
+        padding-left: 2rem;
+        text-align: justify;
+    }
+
+    .descripcion-experiencia h3,
+    .descripcion-experiencia h4 {
+        margin-bottom: 1rem;
+    }
+
+    #experiencia-laboral {
+        padding-bottom: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+    #experiencia-laboral h2 {
+        margin-bottom: 2rem;
+    }
+
+    .experiencia {
+        padding-bottom: 2rem;
+    }
+
+    .experiencia img {
+        width: 20rem;
+    }
+
+    .experiencia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .descripcion-experiencia {
+        margin-left: 1rem;
+        padding-left: 1rem;
+        text-align: justify;
+    }
+
+    .descripcion-experiencia h3,
+    .descripcion-experiencia h4 {
+        margin-bottom: 1rem;
+    }
+
+    #experiencia-laboral {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 412px) {
+    h2, h3, h4 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+    #experiencia-laboral h2 {
+        margin-bottom: 2rem;
+    }
+
+    .experiencia {
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .experiencia img {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .experiencia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descripcion-experiencia {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    .descripcion-experiencia h3,
+    .descripcion-experiencia h4 {
+        margin-bottom: 1rem;
+    }
+
+    #experiencia-laboral {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+    }
+}

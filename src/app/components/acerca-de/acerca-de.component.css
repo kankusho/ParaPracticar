@@ -1,0 +1,155 @@
+/* ACERCA DE MI */
+
+#contain-acerca-de-mi {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+.datos-personales img {
+    position: absolute;
+    top: 25rem;
+    left: 14rem;
+    width: 13.5rem;
+    border-radius: 50%;
+}
+
+.datos-personales {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contain-acerca-de-mi h2 {
+    margin-bottom: 2rem;
+}
+
+#contain-acerca-de-mi h3 {
+    margin: 6rem 0 1rem;
+}
+
+.resumen-sobre-mi {
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    /* ACERCA DE MI */
+
+    #contain-acerca-de-mi {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .datos-personales img {
+        position: absolute;
+        top: 26rem;
+        left: 12rem;
+        width: 14rem;
+        border-radius: 50%;
+    }
+
+    .datos-personales {
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contain-acerca-de-mi h2 {
+        margin-bottom: 1rem;
+    }
+
+    #contain-acerca-de-mi h3 {
+        margin: 7.5rem 0 1rem;
+    }
+
+    .resumen-sobre-mi {
+        flex-basis: 65%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 768px) {
+    #contain-acerca-de-mi {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .datos-personales img {
+        position: absolute;
+        top: 18rem;
+        left: 21rem;
+        width: 17rem;
+        border-radius: 50%;
+    }
+
+    .datos-personales {
+        flex-basis: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #contain-acerca-de-mi h2 {
+        margin-bottom: 1rem;
+    }
+
+    #contain-acerca-de-mi h3 {
+        margin: 6.5rem 0 1rem;
+    }
+
+    .resumen-sobre-mi {
+        flex-basis: 70%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 412px) {
+    h2 {        
+        text-align: center;
+    }
+
+    #contain-acerca-de-mi {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .datos-personales img {
+        position: absolute;
+        top: 16rem;
+        left: 9rem;
+        width: 14rem;
+        border-radius: 50%;
+    }
+
+    .datos-personales {        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #contain-acerca-de-mi h2 {
+        margin-bottom: 1rem;
+    }
+
+    #contain-acerca-de-mi h3 {
+        margin: 6rem 0 1rem;
+    }
+
+    .resumen-sobre-mi {        
+        text-align: justify;
+    }
+}
